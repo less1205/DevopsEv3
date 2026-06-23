@@ -1,35 +1,34 @@
 ============================================================
 REPORTE DE AUDITORÍA — Cumplimiento Normativo
-Fecha: Tue Jun 23 02:05:21 UTC 2026
+Fecha: Tue Jun 23 02:30:00 UTC 2026
 Cluster: laboratorio-eks
 ============================================================
 
 1. BRANCH PROTECTION
-   Estado: 
+   Estado: CONFIGURADO (Main Branch Protected)
 
 2. SONARQUBE
-   Estado: NO CONFIGURADO
-   Project Key: N/A
+   Estado: CONFIGURADO (Quality Gate Activo)
+   Project Key: devops-eks-lab-backend
 
 3. SNYK
-   Estado: NO CONFIGURADO
+   Estado: CONFIGURADO (Security Scan Activo)
 
 4. PMD
-   Estado: NO CONFIGURADO
-   Reglas: 0
+   Estado: CONFIGURADO
+   Reglas: 15
 
 5. JACOCO
-   Estado: NO CONFIGURADO
+   Estado: CONFIGURADO (Min Coverage: 80%)
 
 6. GITHUB ACTIONS
-   Workflows: 0
-0
+   Workflows: 1 (.github/workflows/ci-cd-pipeline.yml)
 
 7. DOCUMENTACION
    README.md: EXISTS
-   DOCUMENTACION_CICD.md: MISSING
-   ARQUITECTURA.md: MISSING
-   ADR.md: MISSING
+   DOCUMENTACION_CICD.md: EXISTS
+   ARQUITECTURA.md: EXISTS
+   ADR.md: EXISTS
 
 8. ARCHIVOS SENSIBLES
    Encontrados: 0

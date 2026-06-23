@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: 461663648686.dkr.ecr.us-east-1.amazonaws.com/alumnos-backend:eks-v1
+          image: 119470572817.dkr.ecr.us-east-1.amazonaws.com/alumnos-backend:latest
           ports:
             - containerPort: 8080
           env:
